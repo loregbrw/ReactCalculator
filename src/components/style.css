@@ -1,0 +1,13 @@
+.button {
+    background-color: #cc8720;
+    height: 35px;
+
+    border-radius: 5px;
+    transition: 150ms;
+
+    cursor: pointer;
+
+    &:hover {
+        filter: hue-rotate(-10deg) brightness(85%);
+    }
+}
